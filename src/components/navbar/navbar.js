@@ -6,7 +6,7 @@ const Navbar = (props) => (
     <div className="container-fluid">
       <div className="navbar">
         <ul>
-          <li className= "brand"> <a href="https://fatkiddh.github.io/Clicky-Games/">Clicky Game</a></li>
+          <li className= "brand"> <a href="/Clicky-Games/">Clicky Game</a></li>
           <li className="instructions">Click an image to begin!</li>
           <li className="currentscore">{props.children}</li>
         </ul>
